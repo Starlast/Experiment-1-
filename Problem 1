@@ -1,0 +1,219 @@
+#include <iostream>
+#include <conio.h>
+#include <string>
+
+using namespace std;
+
+int main ()
+{
+	
+	double Box;
+    double Sideline;
+	double Premium;
+	double GeneralAdmission;
+
+
+	cout <<" Game 1 " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	cout << " Ticket Price Sales       " << "Number Of Tickets Sold "<<endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	cout << " Box ($250)                ";
+	cin >> Box;
+	cout << Box * 250 << ".00" << endl;
+   
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	
+	cout << " Sideline ($100)           ";
+	cin >> Sideline;
+	cout << Sideline * 100 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	
+	cout << " Premium ($50)             ";
+	cin >> Premium;
+	cout << Premium * 50 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	
+	cout << " GeneralAdmission ($25)    ";
+	cin >> GeneralAdmission;
+	cout << GeneralAdmission * 25 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	cout    << " Total Amount for Game 1 " <<  (Box * 250)+(Sideline * 100)+(Premium * 50)+(GeneralAdmission * 25) << ".00" <<endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	cout <<" Game 2 " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	cout << " Ticket Price Sales       " << "Number Of Tickets Sold "<<endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	cout << " Box ($250)                ";
+	cin >> Box;
+	cout << Box * 250 << ".00" << endl;
+   
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	
+	cout << " Sideline ($100)           ";
+	cin >> Sideline;
+	cout << Sideline * 100 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	
+	cout << " Premium ($50)             ";
+	cin >> Premium;
+	cout << Premium * 50 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	
+	cout << " GeneralAdmission ($25)    ";
+	cin >> GeneralAdmission;
+	cout << GeneralAdmission * 25 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	cout    << " Total Amount for Game 2 " <<  (Box * 250)+(Sideline * 100)+(Premium * 50)+(GeneralAdmission * 25) << ".00" <<endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	cout <<" Game 3 " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	cout << " Ticket Price Sales       " << "Number Of Tickets Sold "<<endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	cout << " Box ($250)                ";
+	cin >> Box;
+	cout << Box * 250 << ".00" << endl;
+   
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	
+	cout << " Sideline ($100)           ";
+	cin >> Sideline;
+	cout << Sideline * 100 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	
+	cout << " Premium ($50)             ";
+	cin >> Premium;
+	cout << Premium * 50 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	
+	cout << " GeneralAdmission ($25)    ";
+	cin >> GeneralAdmission;
+	cout << GeneralAdmission * 25 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	cout    << " Total Amount for Game 3 " <<  (Box * 250)+(Sideline * 100)+(Premium * 50)+(GeneralAdmission * 25) << ".00" <<endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	cout <<" Game 4 " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	cout << " Ticket Price Sales       " << "Number Of Tickets Sold "<<endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	cout << " Box ($250)                ";
+	cin >> Box;
+	cout << Box * 250 << ".00" << endl;
+   
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+	
+	cout << " Sideline ($100)           ";
+	cin >> Sideline;
+	cout << Sideline * 100 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	
+	cout << " Premium ($50)             ";
+	cin >> Premium;
+	cout << Premium * 50 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	
+	cout << " GeneralAdmission ($25)    ";
+	cin >> GeneralAdmission;
+	cout << GeneralAdmission * 25 << ".00" << endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	
+	cout    << " Total Amount for Game 4 " <<  (Box * 250)+(Sideline * 100)+(Premium * 50)+(GeneralAdmission * 25) << ".00" <<endl;
+
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+	cout    << " " <<endl;
+
+
+	_getch();
+	return 0;
+}
