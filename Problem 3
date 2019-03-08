@@ -1,0 +1,35 @@
+#include <iostream>
+#include <conio.h>
+#include <string>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	double aveDB;
+	double netBalance;
+	double payment;
+	double d1;
+	double d2;
+	double irpm;
+	double TotalInterest;
+	
+	cout << "Enter Net Balance" << endl;
+	cin >> netBalance;
+	cout << "Enter Payment" << endl;
+	cin >> payment;
+	cout << "Enter Number of Days in Your Billing Cycle" << endl;
+	cin >> d1;
+	cout << "Enter Number of Days Payment is Made Before Billing Cycle" << endl;
+	cin >> d2;
+	cout << "Enter Interest Rate Per Month" << endl;
+	cin >> irpm;
+	cout << fixed;
+	aveDB = ((netBalance * d1)-(payment * d2)) / d1;
+	cout << "Average Daily Balance Is: " << aveDB << endl;
+	TotalInterest = (aveDB * 0.0152);
+	cout << "Your Total Interest Is: " <<  TotalInterest << endl;
+	_getch();
+	return 0;
+
+}
